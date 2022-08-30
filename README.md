@@ -1,2 +1,2 @@
-# my-porfolio
+# Noob Portfolio
 not responsive
