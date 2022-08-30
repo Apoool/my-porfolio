@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pol's Portfolio</title>
+    <!--https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9-->
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/reach.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+    <header>
+      <div class = "header">
+        <div class="logo-section">
+            <img class="logo" src="images/logo.png" alt="my-logo">
+            <div class="title-name">
+              <p1> Pol Kyros</p1>
+              <p2> Computer Engineer</p2>
+            </div>
+        </div>
+        <div class="tabs-section">
+          <button class="home-tab" onclick="document.getElementById('home').scrollIntoView({behavior: 'smooth' , block: 'center'});">
+            <p1>Home</p1>
+          </button>
+          <button class="about-tab" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth' , block: 'start'});">
+            <p1>About</p1>
+          </button>
+          <button class="projects-tab" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth' , block: 'start'});">
+            <p1>Projects</p1>
+          </button>
+          <button class="reach-tab" onclick="document.getElementById('reach').scrollIntoView({behavior: 'smooth' , block: 'start'});">
+            <p1>Reach</p1>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section class = "content">
+      <div class = "home-content" id = "home">
+          <div class="introduction-photo">
+            <img src="images/logo.png">
+          </div>
+          <div class="introduction-container">
+            <div class="introduction-greetings">
+              Hi there! I am
+            </div>
+            <div class="introduction-name">
+              Paul John Quiros
+            </div>
+            <p class="introduction-parag">
+              A computer engineering student at CIT-U. Currently studying the fundamentals and basics of 
+              web development. As of now, I am still polishing my <span style="color: #f7a400 ;">HTML</span>, 
+              <span style="color: #f7a400 ;">CSS</span>, and <span style="color: #f7a400 ;">Javascript</span> skills. 
+            </p>
+        </div>
+      </div> <!--DONE-->
+      <hr>
+      <div class = "about-content" id = "about">
+        <h1>About Me!</h1>
+        <div class="about-content-background">
+          <p1>
+            A fourth year Computer Engineering student (2022) in Cebu Institute of Technology &#8212; University. Currently, studying
+            web development for personal growth and as a career profession. Aiming to grasp the concepts of MERN stack.
+          </p1>
+        </div>
+        <div class="about-content-container">
+          <div class="about-tools">
+            <h1>Tools</h1>
+            <div class="tool-icons">
+              <a href="https://code.visualstudio.com/" target="_blank" >
+                <img class="icon" src="images/vscode.png">
+              </a>
+              <a href="https://www.jetbrains.com/idea/" target="_blank">
+                <img class="icon" src="images/intellij-idea.png">
+              </a>
+              <a href="https://www.blender.org/" target="_blank">
+                <img class="icon" src="images/blender_icon.png">
+              </a>
+              <a href="https://gluonhq.com/products/scene-builder/" target="_blank">
+                <img class="icon" src="images/scene-builder.png">
+              </a>
+              <a href="https://www.bloodshed.net/" target="_blank">
+                <img class="icon" src="images/devc.png">
+              </a>
+              <a href="https://github.com/" target="_blank">
+                <img class="icon" src="images/github-mark.png">
+              </a>
+            </div>
+          </div>
+          <div class="about-languages">
+            <h1>Languages</h1>
+            <div class="language-icons">
+              <a href="https://www.w3schools.com/css/" target="_blank">
+                <img class="icon" src="images/css-logo.png">
+              </a>
+              <a href="https://www.w3schools.com/html/" target="_blank">
+                <img class="icon" src="images/HTML5_Badge_512.png">
+              </a>
+              <a href="https://www.w3schools.com/cpp" target="_blank">
+                <img class="icon" src="images/cpp-logo.png">
+              </a>
+              <a href="https://www.java.com/en/" target="_blank">
+                <img class="icon" src="images/java-logo.png">
+              </a>
+              <a href="https://www.python.org/" target="_blank">
+                <img class="icon" src="images/python-logo.png">
+              </a>
+              <a href="https://www.javascript.com/" target="_blank">
+                <img class="icon" src="images/javascript-logo.png">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> <!--DONE-->
+      <hr>
+      <div class = "projects-content" id = "projects">
+        <h1> Projects</h1>
+        <h2>Projects I Built</h2>
+        <div class = "built-projects">
+          <div class = "projects-container">
+            <div class = "project-preview" >
+              <p1 class = "platform-tag">Desktop</p1>
+              <div class = "language-overlay">
+                <p1>
+                  Java
+                </p1>
+              </div>
+              <div class = "project-image-container">
+                <img class = "project-image" src="images/shade.png">  
+              </div>
+              <a class = "project-title" href="https://github.com/Apoool/SHADE_V2">
+                Shopping Assistant Device
+              </a>
+              <div class = "project-description-container">
+                <p class = "project-description">
+                  A software application created to cater the software capabilities of our Methods of Research project device.
+                  The application contain features that are inclined to physical shopping experiences and needs.
+                </p>
+              </div>
+
+            </div>
+            <div class = "project-preview" >
+              <p1 class = "platform-tag">Web</p1>
+              <div class = "language-overlay">
+                <p1>
+                  HTML | CSS | Javascript
+                </p1>
+              </div>
+              <div class = "project-image-container">
+                <img class = "project-image" src="images/no-photo-available.png">
+              </div>
+              
+              <a class = "project-title" href="https://github.com/Apoool">
+                Management System
+              </a>
+              <p class = "project-description">
+                Work in progress management system.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2>Projects I Collaborated</h2>
+        <div class = "collaborated-projects">
+          <div class = "projects-container">
+            <div class = "project-preview" >
+              <p1 class = "platform-tag">Desktop</p1>
+              <div class = "language-overlay">
+                <p1>
+                  Java
+                </p1>
+              </div>
+              <div class = "project-image-container">
+                <img class = "project-image" src="images/tech_d_banner.png">
+              </div>
+              
+              <a class = "project-title" href="https://github.com/Apoool/TECH-D">
+                Technologian Electronic Help Desk
+              </a>
+              <div class = "project-description-container">
+                <p class = "project-description">
+                  Technologian Electronic Help Desk is an interactive application that helps students, 
+                  parents, and visitors locate buildings, services, and rooms, find answers to their 
+                  queries, or get to know the university.
+                </p>
+              </div>
+              
+            </div>
+            <div class = "project-preview" >
+              <p1 class = "platform-tag">Desktop</p1>
+              <div class = "language-overlay">
+                <p1>
+                  Java
+                </p1>
+              </div>
+              <div class = "project-image-container">
+                <img class = "project-image" src="images/Avem.png">
+              </div>
+              
+              <a class = "project-title" href="https://github.com/Apoool/AVEM">
+                Audio-Visual Equipment Manager
+              </a>
+              <div class = "project-description-container">
+                <p class = "project-description">
+                  Its purpose is to allow easier, systematic, and portable AV equipment tracking and management 
+                   the multimedia and documentation support department at Cebu Institute of Technology - University
+                </p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div> <!--DONE-->
+      <hr>
+      <div class = "reach-content" id = "reach">
+        <div class = "contact-me-container">
+          <h1>Reach</h1>
+          <h2>Contact me</h2>
+          <div class = "contact-me-contents">
+            <div class = "contact-me-forms">
+              <input class = "name-text" type="text" placeholder="Name">
+              <input class = "email-text" type="email" placeholder="Email address"><br>
+              <textarea class="message-textbox" placeholder="Message here"></textarea>
+              <button class = "submit-button">
+                Submit
+              </button> <!--WIP-->
+            </div>
+            <div class = "contact-me-socials">
+              <span>Socials:</span>
+              <a href = "https://www.facebook.com/pauljohn.quiros" target="_blank">
+                <img class = "socials-icons" src = "images/icons8-facebook-500-3.png">
+              </a>
+              <a href = "https://www.instagram.com/impolayt/" target="_blank">
+                <img class = "socials-icons" src = "images/icons8-instagram-500-2.png">
+              </a>
+              <a href = "https://twitter.com/Impolayt" target="_blank">
+                <img class = "socials-icons" src = "images/icons8-twitter-500.png">
+              </a>
+              <a href = "https://github.com/Apoool" target="_blank">
+                <img class = "socials-icons" src = "images/github-mark.png">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class = "resume-container">
+          <h2>Resume</h2>
+          <div class = "resume-file">  
+            <a href="https://drive.google.com/file/d/1B5486ssrKx8Ib5rGahKLWTGoTGfAa1uz/view?usp=sharing" target="_blank">
+              <img src="images/resume-preview.PNG">
+            </a>
+          </div>
+        </div>
+
+      </div> <!--WIP-->
+    </section>
+
+  </body>
+
+</html>

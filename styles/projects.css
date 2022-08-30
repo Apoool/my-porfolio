@@ -1,0 +1,154 @@
+.projects-content{
+  display: flex;
+  flex-direction: column;
+  color: #f7a400;
+  align-items: center;
+}
+
+.projects-content h1{
+  font-size: 40px;
+  font-weight: 700;
+  margin: 20px 5px 5px 5px;
+  color: #f7a400;
+  text-align: center;
+  
+}
+.projects-content h2{
+  font-size: 30px;
+  font-weight: 500;
+  margin: 20px 5px 5px 5px;
+  color: #f7a400;
+  text-align: center;
+  
+}
+
+.built-projects{
+  flex: 1;
+}
+.collaborated-projects{
+  flex: 1;
+}
+
+.built-projects,
+.collaborated-projects{
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.projects-container{
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 50px;
+  
+}
+
+.project-preview{
+  height: 500px;
+  width: 400px;
+  padding: 0px 0px 10px 0px;
+  margin: 20px 10px 20px 10px;
+  display: flex;
+  border-radius: 15% 15% 15% 15%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3F4E4F;
+  position: relative;
+}
+
+.platform-tag{
+  position: absolute;
+  color: #DCD7C9;
+  width: 150px;
+  background-color: #2C3639;
+  left: -30px;
+  top: 35px;
+  transform: rotate(-45deg);
+  z-index: 100;
+}
+
+.language-overlay{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  left: 25px;
+  right: 25px;
+  top: 20px;
+  height: 250px;
+  width: 350px;
+  border-radius: 20% 20% 20% 20%;
+  opacity: 0;
+  background-color: #2C3639;
+  transition: .4s;
+}
+
+.language-overlay:hover{
+  opacity: .8;
+  backdrop-filter: blur(10px);
+}
+
+.language-overlay p1{
+  font-size: 25px;
+  font-weight: 400;
+  background-color: #2C3639;
+  color: #DCD7C9;
+  opacity: 1;
+  backdrop-filter: none;
+}
+
+.project-image-container{
+  height: 250px;
+  width: 350px;
+  align-items: center;
+  padding: 20px 0px 10px 0px;
+}
+
+.project-image{
+  height: 250px;
+  width: 350px;
+  border-radius: 20% 20% 20% 20%;
+  
+}
+
+.project-image-wip{
+  height: 250px;
+  width: 350px;
+  border-radius: 20% 20% 20% 20%;
+  align-items: center;
+  margin: 20px 0px 10px 0px;
+  opacity: .8;
+  backdrop-filter: blur(10px);
+}
+
+.project-title{
+  color: #f7a400;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500px;
+  padding: 10px 0px 5px 0px;
+}
+
+.project-title:hover{
+  color: #DCD7C9;
+  text-decoration: underline;
+}
+
+.project-description-container{
+  width: 250px;
+  
+  margin: 10px 0px 10px 0px;
+  
+}
+
+.project-description{
+  height: inherit;
+  color: #DCD7C9;
+  text-align: justify;
+  padding: 5px 0px 5px 0px;
+}

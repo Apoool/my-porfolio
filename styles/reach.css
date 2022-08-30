@@ -1,0 +1,119 @@
+.reach-content{
+  background-color: #2C3639;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.reach-content h1{
+  font-size: 40px;
+  font-weight: 700;
+  margin: 20px 5px 5px 5px;
+  color: #f7a400;
+  text-align: center;
+  width: 300px;
+}
+
+.reach-content h2{
+  font-size: 30px;
+  font-weight: 500;
+  margin: 20px 5px 5px 5px;
+  color: #f7a400;
+  text-align: center;
+  width: 300px;
+}
+
+.contact-me-container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me-contents{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-me-forms{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  row-gap: 0;
+  width: 500px;
+  height: 500px;
+  margin: 30px 0px 50px 0px;
+}
+
+.name-text,
+.email-text,
+.message-textbox{
+  width: inherit;
+  height: 25px;
+  font-family: Ubuntu, Arial;
+  color: #DCD7C9;
+  background-color: #2C3639;
+  border: 1px solid #f7a400;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.message-textbox{
+  height: 300px;
+}
+
+.submit-button{
+  font-family: Ubuntu, Arial;
+  color: black;
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  margin: 10px 10px 10px 10px;
+  background-color: #f7a400;
+  border: 0.5px solid #2C3639;
+  border-radius: 5px;
+  bottom: -50px;
+  right: -17px;
+}
+
+.submit-button:hover{
+  cursor: pointer;
+  opacity: .5;
+}
+
+.contact-me-socials{
+  font-family: Ubuntu, Arial;
+  font-size: 25px;
+  font-weight: 400;
+  color: #f7a400;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+  flex: 1;
+}
+
+.socials-icons{
+  height: 30px;
+}
+
+.resume-container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0px 50px 0px;
+}
+
+.resume-file{
+  border: 1px solid #f7a400;
+  margin: 30px 10px 10px 10px;
+}

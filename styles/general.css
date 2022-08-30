@@ -1,0 +1,22 @@
+p, section, header{
+  font-family: Ubuntu, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body{
+  margin: 0;
+  background-color: #2C3639;
+  padding-top: 75px ;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: auto;
+  width: auto;
+}
+
+hr{
+  right: 0;
+  left: 0;
+  width: 1000px;
+  border: 0px;
+  border-top: 1px solid #f7a400;
+}

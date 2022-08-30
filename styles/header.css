@@ -1,0 +1,112 @@
+.header{
+  color: #DCD7C9;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  backdrop-filter: blur(8px);
+  box-shadow: 0px 1.5px 10px #3F4E4F;
+  z-index: 500;
+}
+
+
+
+.logo-section{
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.title-name{
+  display: flex;
+  flex-direction: column;
+  color: #f7a400;
+  margin: 5px 5px 0px 5px;
+}
+.title-name p1{
+  color: #f7a400;
+  font-size: 30px;
+  margin: 5px 5px 0px 10px;
+}
+.title-name p2{
+  color: #DCD7C9;
+  font-size: 15px;
+  margin: 0px 5px 10px 10px;
+}
+.tabs-section{
+  padding-left: 50px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-tab,
+.about-tab,
+.projects-tab,
+.reach-tab{
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  font-family: Ubuntu, Arial;
+  color: #DCD7C9;
+  font-size: 20px;
+  padding: 10px;
+  width: 75px;
+  margin-left: 15px; 
+  margin-right: 15px; 
+  align-items: center;
+  transition: .6s;
+}
+
+
+.home-tab:hover,
+.about-tab:hover,
+.projects-tab:hover,
+.reach-tab:hover{
+  color: #f7a400;
+  cursor: pointer;
+}
+
+@media(max-width: 1200px){
+  .tabs-section{
+      padding-left: 75px;
+      padding-right: 75px;
+  }
+  .logo-section{
+      padding-left: 25px;
+      padding-right: 25px;
+  }
+  
+  .title-name p1{
+      color: #f7a400;
+      font-size: 20px;
+      margin: 0px 0px 0px 5px;
+  }
+  .title-name p2{
+      color: #DCD7C9;
+      font-size: 10px;
+      margin: 0px 0px 5px 5px;
+  }
+}
